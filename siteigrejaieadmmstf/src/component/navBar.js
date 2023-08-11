@@ -1,7 +1,7 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-function tabs() {
+function navBar() {
   return (
     <Tabs
       defaultActiveKey="profile"
@@ -24,4 +24,4 @@ function tabs() {
   );
 }
 
-export default tabs;
+export default navBar;
